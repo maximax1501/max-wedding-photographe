@@ -750,11 +750,8 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
   .form { grid-template-columns: 1fr; }
   .about__facts { gap: 28px; flex-wrap: wrap; }
   .fullbleed__quote blockquote { font-size: 34px; }
-  .hero__media { position: relative; inset: auto; padding-top: 140px; }
-  .hero__media img { height: auto; aspect-ratio: 3 / 2; }
-  .hero__media::after { display: none; }
-  .hero { height: auto; min-height: 100svh; }
-  .hero__content { position: relative; left: auto; right: auto; bottom: auto; padding: 40px var(--gutter) 60px; }
+  /* Photo d'ouverture plein écran sur mobile, cadrée sur les mariés */
+  .hero__media img { object-position: 34% 55%; }
   .fullbleed__img { height: auto; aspect-ratio: 3 / 2; }
   .fullbleed__img img { top: 0; height: 100%; }
   .logo { gap: 8px; }
