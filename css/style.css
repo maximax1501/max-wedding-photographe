@@ -408,6 +408,10 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
 .t8 { grid-column: 1 / span 7; }
 .t9 { grid-column: 9 / span 4; margin-top: 10vh; }
 .t10 { grid-column: 2 / span 10; }
+.t11 { grid-column: 1 / span 7; }
+.t12 { grid-column: 9 / span 4; margin-top: 14vh; }
+.t13 { grid-column: 2 / span 5; margin-top: 6vh; }
+.t14 { grid-column: 8 / span 5; margin-top: 18vh; }
 
 /* ---------- Approche ---------- */
 .steps { border-top: 1px solid var(--line-light); margin-top: clamp(50px, 7vw, 100px); }
