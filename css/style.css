@@ -367,6 +367,7 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
 .hframe { flex: 0 0 auto; position: relative; overflow: hidden; }
 .hframe img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.12); }
 .hframe--l { height: 60vh; aspect-ratio: 3 / 2; }
+.hframe--xl { height: 74vh; aspect-ratio: 3 / 2; }
 .hframe--p { height: 68vh; aspect-ratio: 2 / 3; }
 .hframe--s { height: 36vh; aspect-ratio: 3 / 2; align-self: flex-end; margin-bottom: 14vh; }
 .hframe--t { align-self: flex-start; margin-top: 22vh; }
@@ -668,6 +669,7 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
   .manifesto, .about, .contact { grid-template-columns: 1fr; }
   .manifesto__media { order: -1; }
   .hframe--l { height: 30vh; }
+  .hframe--xl { height: 40vh; }
   .hframe--p { height: 54vh; }
   .hframe--s { height: 22vh; margin-bottom: 12vh; }
   .chapter-title { width: 78vw; }
