@@ -241,7 +241,7 @@ body.is-leaving .curtain { transform: translateY(0); }
 .logo { display: inline-flex; align-items: baseline; gap: 12px; line-height: 1; }
 .logo__mark { font-family: var(--serif); font-size: 30px; font-weight: 400; letter-spacing: 0.04em; }
 .logo__mark em { font-style: italic; }
-.logo__sub { font-size: 9px; letter-spacing: 0.34em; text-transform: uppercase; opacity: 0.75; }
+.logo__sub { font-size: 13px; letter-spacing: 0.3em; text-transform: uppercase; opacity: 0.75; }
 .nav { display: flex; gap: clamp(20px, 2.6vw, 44px); }
 .nav a {
   font-size: 11px; letter-spacing: 0.26em; text-transform: uppercase; position: relative; padding: 4px 0;
@@ -534,7 +534,7 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
 .footer__name em { font-style: italic; color: var(--gold-soft); }
 .footer__sub {
   display: flex; align-items: center; gap: 0.9em; margin-bottom: clamp(14px, 2vw, 28px);
-  font-family: var(--sans); font-weight: 300; font-size: clamp(10px, 1.1vw, 16px);
+  font-family: var(--sans); font-weight: 300; font-size: clamp(13px, 1.5vw, 22px);
   letter-spacing: 0.7em; margin-right: -0.7em; text-transform: uppercase; color: rgba(244,239,231,0.75);
 }
 .footer__sub::before, .footer__sub::after { content: ""; width: clamp(30px, 6vw, 90px); height: 1px; background: rgba(244,239,231,0.3); }
@@ -752,7 +752,7 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
   .fullbleed__img img { top: 0; height: 100%; }
   .logo { gap: 8px; }
   .logo__mark { font-size: 24px; }
-  .logo__sub { font-size: 8px; letter-spacing: 0.28em; }
+  .logo__sub { font-size: 11px; letter-spacing: 0.26em; }
 }
 
 @media (prefers-reduced-motion: reduce) {
