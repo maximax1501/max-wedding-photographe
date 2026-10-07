@@ -32,12 +32,14 @@
     $(".loader") && ($(".loader").style.display = "none");
     setTimeout(finishLoad, 30);
   } else {
+    // laisse l'étoile exploser et le nom apparaître avant de lever le rideau
+    const introEnd = performance.now() + 3000;
     let n = 0;
     const tick = () => {
       n = Math.min(100, n + Math.ceil((100 - n) / 9));
       if (counter) counter.textContent = n;
-      if (n < 100) setTimeout(tick, 40);
-      else setTimeout(finishLoad, 250);
+      if (n < 100) setTimeout(tick, 55);
+      else setTimeout(finishLoad, Math.max(250, introEnd - performance.now()));
     };
     window.addEventListener("load", () => {}, { once: true });
     tick();
