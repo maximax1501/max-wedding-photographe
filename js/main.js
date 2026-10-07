@@ -1,4 +1,4 @@
-/* MAX — Wedding Photography · interactions */
+/* MAISON BOZON · interactions */
 (() => {
   const $ = (s, c = document) => c.querySelector(s);
   const $$ = (s, c = document) => [...c.querySelectorAll(s)];
