@@ -411,8 +411,8 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
 .t10 { grid-column: 2 / span 10; }
 .t11 { grid-column: 1 / span 7; }
 .t12 { grid-column: 9 / span 4; margin-top: 14vh; }
-.t13 { grid-column: 2 / span 5; margin-top: 6vh; }
-.t14 { grid-column: 8 / span 5; margin-top: 18vh; }
+.t13 { grid-column: 1 / span 8; margin-top: 8vh; }
+.t14 { grid-column: 5 / span 8; margin-top: 8vh; }
 
 /* ---------- Approche ---------- */
 .steps { border-top: 1px solid var(--line-light); margin-top: clamp(50px, 7vw, 100px); }
