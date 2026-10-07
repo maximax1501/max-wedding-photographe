@@ -159,13 +159,16 @@
   const track = $("[data-htrack]");
   const hprog = $("[data-hprogress]");
   let hDist = 0;
+  // Sur mobile, le récit défile verticalement (voir CSS) : on désactive le scroll horizontal
+  const mobileH = window.matchMedia("(max-width: 820px)");
   const sizeH = () => {
     if (!hs || !track) return;
+    if (mobileH.matches) { hDist = 0; hs.style.height = ""; track.style.transform = ""; return; }
     hDist = Math.max(0, track.scrollWidth - window.innerWidth);
     hs.style.height = `${hDist + window.innerHeight}px`;
   };
   const onH = () => {
-    if (!hs || !track) return;
+    if (!hs || !track || mobileH.matches) return;
     const r = hs.getBoundingClientRect();
     const p = Math.min(1, Math.max(0, -r.top / (hDist || 1)));
     track.style.transform = `translate3d(${-p * hDist}px,0,0)`;
@@ -221,7 +224,7 @@
     vel *= 0.9;
     requestAnimationFrame(mqLoop);
   };
-  if (!reduce) requestAnimationFrame(mqLoop);
+  if (mq && !reduce) requestAnimationFrame(mqLoop);
 
   /* ---------- Boucle de scroll ---------- */
   let ticking = false;

@@ -713,12 +713,19 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
   .hero__top .eyebrow:last-child { display: none; }
   .manifesto, .about, .contact { grid-template-columns: 1fr; }
   .manifesto__media { order: -1; }
-  .hframe--l { height: 30vh; }
-  .hframe--xl { height: 40vh; }
-  .hframe--p { height: 54vh; }
-  .hframe--s { height: 22vh; margin-bottom: 12vh; }
-  .chapter-title { width: 78vw; }
-  .hscroll__end { width: 80vw; }
+  /* Récit : défilement vertical sur mobile (le scroll horizontal reste sur ordinateur) */
+  .hscroll { height: auto !important; }
+  .hscroll__sticky { position: static; height: auto; overflow: visible; display: block; padding: 110px 0 90px; }
+  .hscroll__head { position: static; margin: 0 var(--gutter) 48px; }
+  .hscroll__progress { display: none; }
+  .hscroll__track { flex-direction: column; align-items: stretch; gap: 28px; height: auto; transform: none !important; will-change: auto; }
+  .chapter-title { width: auto; padding: 40px 0 8px; }
+  .chapter-title:first-child { padding-top: 0; }
+  .chapter-title h3 { font-size: clamp(44px, 13vw, 64px); }
+  .hframe, .hframe--l, .hframe--xl, .hframe--s { width: 100%; height: auto; aspect-ratio: 3 / 2; margin: 0; align-self: stretch; }
+  .hframe--p { width: 78%; height: auto; aspect-ratio: 2 / 3; margin: 0; align-self: center; }
+  .hframe img { transform: none; }
+  .hscroll__end { width: auto; padding: 50px 0 10px; }
   .mosaic { grid-template-columns: 1fr 1fr; row-gap: 36px; }
   .mosaic .tile { grid-column: 1 / -1 !important; margin-top: 0 !important; }
   .mosaic .t2, .mosaic .t3 { grid-column: auto !important; }
