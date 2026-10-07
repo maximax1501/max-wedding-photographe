@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Max — Photographe de mariage</title>
+  <meta name="description" content="Max Wedding Photography — photographe de mariage en France et à l'étranger. Un regard élégant, discret et intemporel sur votre plus beau jour." />
+  <meta name="theme-color" content="#15120f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="img/couple-49.jpg" />
+  <link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <div class="loader__word"><span>M</span><span>a</span><span>x</span></div>
+      <p class="loader__sub eyebrow eyebrow--light">Wedding Photography</p>
+    </div>
+    <div class="loader__count"><span data-count>0</span></div>
+  </div>
+  <div class="curtain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor__label" aria-hidden="true">Voir</div>
+
+  <!-- Header -->
+  <header class="header" data-header>
+    <a href="index.html" class="logo" aria-label="Max Wedding Photography — accueil">
+      <span class="logo__mark">M<em>a</em>x</span>
+      <span class="logo__sub">Wedding Photography</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#recit">Portfolio</a>
+      <a href="prestations.html" data-transition>Prestations</a>
+      <a href="options.html" data-transition>Options</a>
+      <a href="faq.html" data-transition>FAQ</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header__cta">
+      <a href="#contact" class="link-line">Réserver votre date</a>
+      <button class="burger" aria-label="Ouvrir le menu" data-burger><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- Menu plein écran -->
+  <div class="menu" data-menu>
+    <nav class="menu__links">
+      <a href="#recit" data-img="img/preparatifs-153.jpg"><small>01</small><span>Portfolio</span></a>
+      <a href="prestations.html" data-transition data-img="img/couple-22.jpg"><small>02</small><span>Prestations</span></a>
+      <a href="options.html" data-transition data-img="img/eglise-17.jpg"><small>03</small><span>Options</span></a>
+      <a href="faq.html" data-transition data-img="img/couple-18.jpg"><small>04</small><span>FAQ</span></a>
+      <a href="#apropos" data-img="img/couple-49.jpg"><small>05</small><span>À propos</span></a>
+      <a href="#contact" data-img="img/couple-34.jpg"><small>06</small><span>Contact</span></a>
+    </nav>
+    <div class="menu__visual"><img src="img/preparatifs-153.jpg" alt="" class="is-on" /></div>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__media" data-hero-media>
+        <img src="img/couple-49.jpg" alt="Les mariés s'embrassent sur le perron du château, noir et blanc" />
+      </div>
+      <div class="hero__content">
+        <h1 class="display hero__title">
+          <span class="split-line"><span>Les instants</span></span>
+          <span class="split-line"><span><em>qui restent.</em></span></span>
+        </h1>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"></div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" data-marquee>
+        <span class="marquee__item">Élégance <i></i> <em>Émotion</em> <i></i> Intemporel <i></i> <em>Lumière</em> <i></i></span>
+        <span class="marquee__item">Élégance <i></i> <em>Émotion</em> <i></i> Intemporel <i></i> <em>Lumière</em> <i></i></span>
+      </div>
+    </div>
+
+    <!-- MANIFESTE -->
+    <section class="section">
+      <div class="container manifesto">
+        <div class="manifesto__text">
+          <span class="eyebrow" data-reveal>— Le manifeste</span>
+          <p class="words" data-words>
+            Je ne mets pas en scène votre mariage. Je le regarde se dérouler, avec patience, pour saisir ce que vous n'aurez pas vu&nbsp;: un rire dans l'escalier, une main qui tremble, la lumière qui tombe sur la dentelle.
+          </p>
+          <div class="manifesto__sign" data-reveal>
+            <span class="eyebrow">Photographie documentaire &amp; éditoriale</span>
+          </div>
+        </div>
+        <div class="manifesto__media">
+          <div class="img-reveal r-p" data-reveal="fade">
+            <img src="img/preparatifs-151.jpg" alt="La mariée vue d'en haut dans un escalier de pierre, le voile déployé" loading="lazy" />
+          </div>
+          <div class="manifesto__caption">
+            <span class="eyebrow">Constance — Préparatifs</span>
+            <span class="eyebrow">Val de Loire</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RÉCIT HORIZONTAL -->
+    <section class="hscroll" id="recit" data-hscroll>
+      <div class="hscroll__sticky">
+        <div class="hscroll__head">
+          <span class="eyebrow eyebrow--light">Le récit d'une journée</span>
+          <div class="hscroll__progress"><span data-hprogress></span></div>
+        </div>
+        <div class="hscroll__track" data-htrack>
+
+          <div class="chapter-title">
+            <span class="num">I.</span>
+            <h3>Les <em>préparatifs</em></h3>
+            <p>La lumière du matin, les mains des amies, les boutons de dentelle un à un.</p>
+          </div>
+          <figure class="hframe hframe--l"><img src="img/preparatifs-130.jpg" alt="La mariée entourée de ses témoins dans la chambre" decoding="async" /><figcaption>Le voile</figcaption></figure>
+          <figure class="hframe hframe--p hframe--t"><img src="img/cocktail-25.jpg" alt="Dos de la robe en dentelle et couronne de fleurs" decoding="async" /></figure>
+          <figure class="hframe hframe--s"><img src="img/preparatifs-128.jpg" alt="La bague et une coupe de champagne" decoding="async" /></figure>
+          <figure class="hframe hframe--l"><img src="img/preparatifs-127.jpg" alt="Éclat de rire de la mariée" decoding="async" /><figcaption>Rire</figcaption></figure>
+          <figure class="hframe hframe--l"><img src="img/preparatifs-146.jpg" alt="La mariée descend l'escalier en fer forgé, noir et blanc" decoding="async" /></figure>
+
+          <div class="chapter-title">
+            <span class="num">II.</span>
+            <h3>La <em>cérémonie</em></h3>
+            <p>Le silence d'une église, les vitraux, un regard qui dit tout.</p>
+          </div>
+          <figure class="hframe hframe--l"><img src="img/eglise-17.jpg" alt="Les mariés devant l'autel sous les vitraux" decoding="async" /><figcaption>L'autel</figcaption></figure>
+          <figure class="hframe hframe--s hframe--t"><img src="img/eglise-50.jpg" alt="Les mariés de profil pendant la cérémonie" decoding="async" /></figure>
+          <figure class="hframe hframe--p"><img src="img/couple-14.jpg" alt="Sortie d'église sous la haie d'honneur des sabres" decoding="async" /><figcaption>Haie d'honneur</figcaption></figure>
+
+          <div class="chapter-title">
+            <span class="num">III.</span>
+            <h3>Le <em>cocktail</em></h3>
+            <p>Les retrouvailles, la lumière dorée qui traverse les arbres.</p>
+          </div>
+          <figure class="hframe hframe--l"><img src="img/cocktail-22.jpg" alt="Invitées dans la lumière dorée du cocktail" decoding="async" /></figure>
+          <figure class="hframe hframe--s"><img src="img/cocktail-42.jpg" alt="Le marié sourit à ses invités" decoding="async" /></figure>
+          <figure class="hframe hframe--l hframe--t"><img src="img/couple-22.jpg" alt="Les mariés devant la façade du château et la voiture ancienne" decoding="async" /><figcaption>Le château</figcaption></figure>
+
+          <div class="chapter-title">
+            <span class="num">IV.</span>
+            <h3>Le <em>dîner</em> &amp; la fête</h3>
+            <p>Les discours, les serviettes qui tournent, la nuit qui s'allume.</p>
+          </div>
+          <figure class="hframe hframe--p"><img src="img/diner-17.jpg" alt="Un invité pensif dans la pénombre" decoding="async" /></figure>
+          <figure class="hframe hframe--l"><img src="img/diner-30.jpg" alt="Les mariés dansent au milieu des invités" decoding="async" /><figcaption>La fête</figcaption></figure>
+          <figure class="hframe hframe--s hframe--t"><img src="img/diner-11.jpg" alt="Une invitée sourit près de la fenêtre" decoding="async" /></figure>
+
+          <div class="hscroll__end">
+            <p>Une journée,<br /><em>une histoire.</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLEIN CADRE -->
+    <section class="fullbleed">
+      <div class="fullbleed__img"><img src="img/preparatifs-153.jpg" alt="La mariée gravit un escalier de pierre, noir et blanc" loading="lazy" data-speed="0.1" /></div>
+    </section>
+
+    <!-- GALERIE -->
+    <section class="section" id="galerie">
+      <div class="container">
+        <div class="gallery-head">
+          <h2 class="h2" data-reveal>Fragments<br /><em>d'un grand jour</em></h2>
+          <p class="body-text" data-reveal>Des images pensées comme des tirages d'art&nbsp;: des couleurs douces, des noirs profonds, et toujours la vérité du moment. Cliquez pour les voir en grand.</p>
+        </div>
+        <div class="mosaic" data-gallery>
+          <figure class="tile t1" data-cursor><div class="img-reveal r-l" data-reveal="fade"><img src="img/couple-34.jpg" alt="Baiser des mariés sur la pelouse du château" loading="lazy" /></div><figcaption><span>Le baiser</span><span>01</span></figcaption></figure>
+          <figure class="tile t2" data-cursor><div class="img-reveal r-p" data-reveal="fade"><img src="img/couple-37.jpg" alt="Les mariés enlacés, voile au vent" loading="lazy" /></div><figcaption><span>Le voile</span><span>02</span></figcaption></figure>
+          <figure class="tile t3" data-cursor><div class="img-reveal r-p" data-reveal="fade"><img src="img/diner-17.jpg" alt="Portrait d'un invité en clair-obscur" loading="lazy" /></div><figcaption><span>Clair-obscur</span><span>03</span></figcaption></figure>
+          <figure class="tile t4" data-cursor><div class="img-reveal r-l" data-reveal="fade"><img src="img/preparatifs-129.jpg" alt="On boutonne la robe en dentelle" loading="lazy" /></div><figcaption><span>Dentelle</span><span>04</span></figcaption></figure>
+          <figure class="tile t5" data-cursor><div class="img-reveal r-l" data-reveal="fade"><img src="img/preparatifs-67.jpg" alt="Le marié et ses témoins dans le salon, noir et blanc" loading="lazy" /></div><figcaption><span>Les témoins</span><span>05</span></figcaption></figure>
+          <figure class="tile t6" data-cursor><div class="img-reveal r-l" data-reveal="fade"><img src="img/preparatifs-132.jpg" alt="Portrait de la mariée pendant la pose du voile" loading="lazy" /></div><figcaption><span>Le regard</span><span>06</span></figcaption></figure>
+          <figure class="tile t7" data-cursor><div class="img-reveal r-l" data-reveal="fade"><img src="img/couple-22.jpg" alt="Les mariés devant la façade du château et la voiture ancienne" loading="lazy" /></div><figcaption><span>Le château</span><span>07</span></figcaption></figure>
+          <figure class="tile t8" data-cursor><div class="img-reveal r-l" data-reveal="fade"><img src="img/preparatifs-33.jpg" alt="La voiture ancienne vue depuis une fenêtre du château" loading="lazy" /></div><figcaption><span>L'attente</span><span>08</span></figcaption></figure>
+          <figure class="tile t9" data-cursor><div class="img-reveal r-p" data-reveal="fade"><img src="img/couple-14.jpg" alt="Sortie d'église sous la haie d'honneur des sabres" loading="lazy" /></div><figcaption><span>Haie d'honneur</span><span>09</span></figcaption></figure>
+          <figure class="tile t10" data-cursor><div class="img-reveal r-l" data-reveal="fade"><img src="img/diner-115.jpg" alt="Les mariés rient près du buffet de desserts" loading="lazy" /></div><figcaption><span>Complicité</span><span>10</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROCHE -->
+    <section class="section section--dark" id="approche">
+      <div class="container">
+        <span class="eyebrow eyebrow--light" data-reveal>— L'approche</span>
+        <h2 class="h2" style="margin-top:24px" data-reveal>Quatre temps,<br /><em>une seule attention.</em></h2>
+        <div class="steps" data-steps>
+          <div class="step" data-reveal>
+            <span class="step__num">01</span>
+            <h3 class="step__title">La rencontre</h3>
+            <p class="step__desc">Un café, un appel, une visio. Vous me racontez votre histoire, vos envies, vos lieux. Je vous écoute avant de photographier.</p>
+          </div>
+          <div class="step" data-reveal>
+            <span class="step__num">02</span>
+            <h3 class="step__title">La préparation</h3>
+            <p class="step__desc">Repérage du lieu, étude de la lumière, déroulé de la journée : tout est pensé pour que, le jour J, vous n'ayez à penser à rien.</p>
+          </div>
+          <div class="step" data-reveal>
+            <span class="step__num">03</span>
+            <h3 class="step__title">Le jour J</h3>
+            <p class="step__desc">Présent et invisible à la fois. Je guide quand il le faut, j'observe le reste du temps, de l'aube à la dernière danse.</p>
+          </div>
+          <div class="step" data-reveal>
+            <span class="step__num">04</span>
+            <h3 class="step__title">L'héritage</h3>
+            <p class="step__desc">Une galerie privée, des retouches faites à la main, et des tirages d'art réalisés par des laboratoires d'exception pour traverser les générations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMESSE (innovation) -->
+    <section class="section section--paper">
+      <div class="container">
+        <span class="eyebrow" data-reveal>— La promesse de l'atelier</span>
+        <h2 class="h2" style="margin:24px 0 clamp(50px,7vw,100px)" data-reveal>Revivre votre mariage<br /><em>avant même de rentrer.</em></h2>
+        <div class="promise promise--2">
+          <div class="promise__item" data-reveal>
+            <b data-counter="48">0</b>
+            <h4>heures pour un avant-goût</h4>
+            <p>Une sélection de vos premières images, livrée sous 48&nbsp;h, à partager pendant que l'émotion est encore là.</p>
+          </div>
+          <div class="promise__item" data-reveal>
+            <b data-counter="100" data-suffix="%">0</b>
+            <h4>retouché à la main</h4>
+            <p>Chaque image est développée une par une, sans filtre automatique, pour une colorimétrie fidèle et intemporelle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTIONS TEASER -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="gallery-head" style="margin-bottom:0">
+          <h2 class="h2" data-reveal>Trois formules,<br /><em>selon vos envies.</em></h2>
+          <p class="body-text" style="color:rgba(244,239,231,.65)" data-reveal>Les fichiers numériques seuls, ou accompagnés d'un tirage d'art, ou d'un album.</p>
+        </div>
+        <div class="collections">
+          <a href="prestations.html" class="ccard" data-transition data-reveal>
+            <img src="img/couple-37.jpg" alt="" loading="lazy" />
+            <div class="ccard__body">
+              <span class="ccard__num">I.</span>
+              <div><h3>Essentielle</h3><p>Les fichiers numériques.</p></div>
+            </div>
+          </a>
+          <a href="prestations.html" class="ccard" data-transition data-reveal>
+            <img src="img/cocktail-25.jpg" alt="" loading="lazy" />
+            <div class="ccard__body">
+              <span class="ccard__num">II.</span>
+              <div><h3>Signature</h3><p>Les fichiers numériques + un tirage en caisse américaine ou en plexiglas.</p></div>
+            </div>
+          </a>
+          <a href="prestations.html" class="ccard" data-transition data-reveal>
+            <img src="img/preparatifs-151.jpg" alt="" loading="lazy" />
+            <div class="ccard__body">
+              <span class="ccard__num">III.</span>
+              <div><h3>Héritage</h3><p>Les fichiers numériques + un album relié main + deux tirages.</p></div>
+            </div>
+          </a>
+        </div>
+        <div style="margin-top:60px;text-align:center" data-reveal>
+          <a href="prestations.html" class="btn btn--light" data-transition>Les prestations <span class="arrow"></span></a>
+          <a href="options.html" class="btn btn--light" data-transition style="margin-left:12px">Les options <span class="arrow"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="section" id="apropos">
+      <div class="container about">
+        <div class="about__media">
+          <div class="img-reveal r-l" data-reveal="fade">
+            <img src="img/couple-18.jpg" alt="La mariée dans la voiture ancienne, noir et blanc" loading="lazy" />
+          </div>
+        </div>
+        <div>
+          <span class="eyebrow" data-reveal>— Derrière l'objectif</span>
+          <h2 class="about__name" data-reveal>Maximilien <em>Bozon</em></h2>
+          <p class="body-text" data-reveal>Je suis Max. Je photographie les mariages comme on écrit un journal intime&nbsp;: sans artifice, avec le souci du détail et une vraie tendresse pour les gens.</p>
+          <p class="body-text" data-reveal>Mon travail se tient à la frontière entre le reportage et l'éditorial — assez discret pour que vous m'oubliiez, assez présent pour que rien ne m'échappe. Mon seul objectif&nbsp;: que, dans trente ans, vos images vous fassent encore le même effet.</p>
+          <div class="about__facts" data-reveal>
+            <div><strong>France</strong><span>&amp; destination</span></div>
+            <div><strong>FR · EN</strong><span>Langues</span></div>
+            <div><strong>1</strong><span>Mariage par jour</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--dark" id="contact">
+      <div class="container contact">
+        <div>
+          <span class="eyebrow eyebrow--light" data-reveal>— Contact</span>
+          <h2 class="display contact__title" style="margin-top:24px" data-reveal><span style="white-space:nowrap">Racontez-moi</span><br /><em>votre histoire.</em></h2>
+          <div class="contact__info" data-reveal>
+            <p class="body-text" style="color:rgba(244,239,231,.65)">Je ne photographie qu'un nombre limité de mariages par saison pour offrir à chacun toute mon attention. Réponse personnelle sous 48&nbsp;h.</p>
+            <a href="mailto:maximilien.bozon@gmail.com" data-email>maximilien.bozon@gmail.com</a>
+          </div>
+        </div>
+        <form class="form" data-form data-reveal>
+          <div class="field"><label for="f-names">Vos prénoms</label><input id="f-names" name="names" placeholder="Camille &amp; Louis" required /></div>
+          <div class="field"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" placeholder="vous@exemple.fr" required /></div>
+          <div class="field"><label for="f-date">Date du mariage</label><input id="f-date" name="date" type="date" /></div>
+          <div class="field"><label for="f-place">Lieu</label><input id="f-place" name="place" placeholder="Château, région, pays…" /></div>
+          <div class="field"><label for="f-guests">Nombre d'invités</label><input id="f-guests" name="guests" type="number" min="0" placeholder="120" /></div>
+          <div class="field"><label for="f-offer">Collection envisagée</label>
+            <select id="f-offer" name="offer">
+              <option>Je ne sais pas encore</option>
+              <option>Essentielle</option>
+              <option>Signature</option>
+              <option>Héritage</option>
+              <option>Séance Book</option>
+            </select>
+          </div>
+          <div class="field field--full"><label for="f-msg">Votre histoire</label><textarea id="f-msg" name="message" placeholder="Comment vous êtes-vous rencontrés ? Qu'attendez-vous de vos photos ?"></textarea></div>
+          <div class="form__foot">
+            <p class="form__note">Votre message s'ouvrira dans votre messagerie, prêt à être envoyé.</p>
+            <button type="submit" class="btn btn--light">Envoyer <span class="arrow"></span></button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__big"><span class="footer__name">M<em>a</em>x</span><span class="footer__sub">Wedding Photography</span></div>
+      <div class="footer__row">
+        <span>© <span data-year></span> Max Wedding Photography — Maximilien Bozon</span>
+        <nav>
+          <a href="prestations.html" data-transition>Prestations</a>
+          <a href="options.html" data-transition>Options</a>
+          <a href="faq.html" data-transition>FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" data-lightbox aria-hidden="true">
+    <img src="" alt="" />
+    <button class="lightbox__btn lightbox__close" data-lb-close>Fermer</button>
+    <button class="lightbox__btn lightbox__prev" data-lb-prev>Préc.</button>
+    <button class="lightbox__btn lightbox__next" data-lb-next>Suiv.</button>
+    <span class="lightbox__count" data-lb-count></span>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js?v=11"></script>
+</body>
+</html>

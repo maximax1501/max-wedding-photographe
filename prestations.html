@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prestations — Max Wedding Photography</title>
+  <meta name="description" content="Trois formules de reportage de mariage, avec tirages d'art et album en option." />
+  <meta name="theme-color" content="#f4efe7" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <div class="loader__word"><span>M</span><span>a</span><span>x</span></div>
+      <p class="loader__sub eyebrow eyebrow--light">Prestations</p>
+    </div>
+    <div class="loader__count"><span data-count>0</span></div>
+  </div>
+  <div class="curtain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor__label" aria-hidden="true">Voir</div>
+
+  <header class="header header--ink" data-header data-ink>
+    <a href="index.html" class="logo" data-transition aria-label="Max Wedding Photography — accueil">
+      <span class="logo__mark">M<em>a</em>x</span>
+      <span class="logo__sub">Wedding Photography</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html#recit" data-transition>Portfolio</a>
+      <a href="prestations.html" class="is-active">Prestations</a>
+      <a href="options.html" data-transition>Options</a>
+      <a href="faq.html" data-transition>FAQ</a>
+      <a href="index.html#apropos" data-transition>À propos</a>
+      <a href="index.html#contact" data-transition>Contact</a>
+    </nav>
+    <div class="header__cta">
+      <a href="index.html#contact" class="link-line" data-transition>Réserver votre date</a>
+      <button class="burger" aria-label="Ouvrir le menu" data-burger><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="menu" data-menu>
+    <nav class="menu__links">
+      <a href="index.html#recit" data-transition data-img="img/preparatifs-153.jpg"><small>01</small><span>Portfolio</span></a>
+      <a href="prestations.html" data-img="img/couple-22.jpg"><small>02</small><span>Prestations</span></a>
+      <a href="options.html" data-transition data-img="img/eglise-17.jpg"><small>03</small><span>Options</span></a>
+      <a href="faq.html" data-transition data-img="img/couple-18.jpg"><small>04</small><span>FAQ</span></a>
+      <a href="index.html#apropos" data-transition data-img="img/couple-49.jpg"><small>05</small><span>À propos</span></a>
+      <a href="index.html#contact" data-transition data-img="img/couple-34.jpg"><small>06</small><span>Contact</span></a>
+    </nav>
+    <div class="menu__visual"><img src="img/preparatifs-153.jpg" alt="" class="is-on" /></div>
+  </div>
+
+  <main>
+
+    <section class="page-head">
+      <div class="container">
+        <h1 class="display page-head__title" data-reveal>Prestations</h1>
+        <p class="body-text" data-reveal>Trois formules. Toutes peuvent être complétées par les <a href="options.html" class="inline-link" data-transition>options</a>.</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container">
+        <div class="plans">
+          <article class="plan" data-reveal>
+            <div class="img-reveal r-p" data-reveal="fade"><img src="img/couple-14.jpg" alt="Sortie d'église sous la haie d'honneur" loading="lazy" /></div>
+            <span class="plan__num">I.</span>
+            <h2 class="plan__title">Essentielle</h2>
+            <ul class="plan__list"><li>Reportage des préparatifs à la soirée</li><li>Galerie privée en ligne</li><li>Photos retouchées en haute définition</li></ul>
+            <p class="plan__price">Sur devis</p>
+          </article>
+          <article class="plan" data-reveal>
+            <div class="img-reveal r-p" data-reveal="fade"><img src="img/cocktail-25.jpg" alt="Dos de la robe en dentelle" loading="lazy" /></div>
+            <span class="plan__num">II.</span>
+            <h2 class="plan__title">Signature</h2>
+            <ul class="plan__list"><li>Tout le contenu d'Essentielle</li><li>Un tirage en caisse américaine ou en plexiglas inclus</li></ul>
+            <p class="plan__price">Sur devis</p>
+          </article>
+          <article class="plan" data-reveal>
+            <div class="img-reveal r-p" data-reveal="fade"><img src="img/preparatifs-151.jpg" alt="La mariée vue d'en haut dans l'escalier" loading="lazy" /></div>
+            <span class="plan__num">III.</span>
+            <h2 class="plan__title">Héritage</h2>
+            <ul class="plan__list"><li>Tout le contenu de Signature</li><li>Album relié main</li><li>Un second tirage d'art</li></ul>
+            <p class="plan__price">Sur devis</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark cta-band cta-band--short">
+      <div class="container">
+        <h2 class="h2" data-reveal>Votre date est-elle <em>libre&nbsp;?</em></h2>
+        <a href="index.html#contact" class="btn btn--light" data-transition data-reveal>Demander un devis <span class="arrow"></span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__big"><span class="footer__name">M<em>a</em>x</span><span class="footer__sub">Wedding Photography</span></div>
+      <div class="footer__row">
+        <span>© <span data-year></span> Max Wedding Photography — Maximilien Bozon</span>
+        <nav>
+          <a href="prestations.html">Prestations</a>
+          <a href="options.html" data-transition>Options</a>
+          <a href="faq.html" data-transition>FAQ</a>
+          <a href="index.html#contact" data-transition>Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js?v=11"></script>
+</body>
+</html>
