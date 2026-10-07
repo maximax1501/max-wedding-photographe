@@ -169,6 +169,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .loader__sub { margin-top: 18px; opacity: 0; animation: subIn 1.4s var(--ease) 1.65s forwards; }
 
+.loader__sub--top { margin: 0 0 18px; }
+
 /* Logo étoile qui explose en feu d'artifice */
 .loader__star {
   position: absolute; left: 50%; top: 50%; width: clamp(76px, 9vw, 104px); height: auto;
@@ -524,14 +526,14 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
 .footer { background: var(--ink); color: var(--ivory); padding: 0 0 36px; overflow: hidden; }
 .footer__big {
   display: flex; flex-direction: column; align-items: center; text-align: center;
-  padding-top: clamp(50px, 7vw, 100px); border-top: 1px solid var(--line-light);
+  padding-top: clamp(40px, 6vw, 80px); border-top: 1px solid var(--line-light);
 }
 .footer__name {
   font-family: var(--serif); font-weight: 300; font-size: clamp(110px, 20vw, 320px); line-height: 0.85; letter-spacing: -0.03em;
 }
 .footer__name em { font-style: italic; color: var(--gold-soft); }
 .footer__sub {
-  display: flex; align-items: center; gap: 0.9em; margin-top: clamp(14px, 2vw, 28px);
+  display: flex; align-items: center; gap: 0.9em; margin-bottom: clamp(14px, 2vw, 28px);
   font-family: var(--sans); font-weight: 300; font-size: clamp(10px, 1.1vw, 16px);
   letter-spacing: 0.7em; margin-right: -0.7em; text-transform: uppercase; color: rgba(244,239,231,0.75);
 }
@@ -748,7 +750,9 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
   .hero__content { position: relative; left: auto; right: auto; bottom: auto; padding: 40px var(--gutter) 60px; }
   .fullbleed__img { height: auto; aspect-ratio: 3 / 2; }
   .fullbleed__img img { top: 0; height: 100%; }
-  .logo__sub { display: none; }
+  .logo { gap: 8px; }
+  .logo__mark { font-size: 24px; }
+  .logo__sub { font-size: 8px; letter-spacing: 0.28em; }
 }
 
 @media (prefers-reduced-motion: reduce) {
