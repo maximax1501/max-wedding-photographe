@@ -344,7 +344,6 @@ body.is-loaded .hero .split-line:nth-child(2) > span { transition-delay: 0.82s; 
 .words .w.on { opacity: 1; }
 .manifesto__media { position: relative; }
 .manifesto__media .img-reveal { aspect-ratio: 2 / 3; max-width: 540px; margin-left: auto; }
-.manifesto__caption { display: flex; justify-content: space-between; margin-top: 16px; }
 .manifesto__sign { margin-top: 48px; display: flex; align-items: center; gap: 20px; }
 .manifesto__sign::before { content: ""; width: 60px; height: 1px; background: var(--ink); }
 
